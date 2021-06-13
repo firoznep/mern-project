@@ -12,7 +12,7 @@ app.use(cors());
 mongoDbConnect();
 
 app.get("/", (req, res) => {
-  res.json({ name: "Muslim" });
+  res.json({ name: "Muslim", greeting: "HelloWorld" });
 });
 
 app.use("/api/products", productRouter);
