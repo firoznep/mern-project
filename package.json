@@ -10,7 +10,8 @@
     "client": "npm start --prefix front-end",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:insert": "node back-end/seeder",
-    "data:destroy": "node back-end/seeder -dlt"
+    "data:destroy": "node back-end/seeder -dlt",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix fron-end && npm run build --prefix front-end"
   },
   "keywords": [],
   "author": "Firoz",
