@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
 import App from "./App";
-import "./bootstrap.min.css";
+// import "./bootstrap.min.css";
 import store from "./feature/store";
-import "./index.css";
+// import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
